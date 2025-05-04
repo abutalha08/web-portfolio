@@ -1,18 +1,78 @@
 body{
   font-family: "Ubuntu", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 h1{
   font-size: 50px;
 }
-.name-highlight{
+h2{
+  font-size: 40px;
+  padding-bottom: 15px;
+}
+p{
+  color: dimgray;
+}
+.orange-highlight{
   color: orangered;
 }
 .half-width{
   width: 40%;
   display: inline-block;
+ 
+  /* float: left; */
   margin-left: 5% ;
   padding-left: 2%;
 }
 .half-width img{
   width: 100%;
+} 
+.top-banner{
+  background-image: url("images/top-banner.png");
+  background-repeat: no-repeat;
+}
+.link-button{
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  text-decoration: none;
+  background-image: linear-gradient(45deg, lightsalmon, tomato);
+  padding: 5px 10px;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+}
+section{
+  padding-bottom: 170px ;
+  /* height: 500px; */
+  
+}
+.dream-area{
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.single-experience{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 100%;
+  background-color: white;
+}
+.experience-area{
+  background-image: url(images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position: left;
+}
+#full-stack{
+   border-left: 7px solid;
+   border-image: linear-gradient(180deg, lightsalmon, tomato);
+   border-image-slice: 1;
+}
+#baby-dev{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
+footer{
+  text-align: center;
+  font-size: 12px;
 }
